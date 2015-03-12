@@ -8,11 +8,9 @@
 </head>
 <body>
 
-<div id="container">
+<div id="contain">
   <%= render :partial => 'layouts/header' -%>
-  <div class="inner wrap clearfix">
-    <%= yield %>
-  </div>
+  <%= yield %>
   <%= render :partial => 'layouts/footer' -%>
 </div>
 
