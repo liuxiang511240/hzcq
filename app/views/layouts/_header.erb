@@ -6,11 +6,34 @@
     <a href="javascript:window.external.AddFavorite('http://www.baidu.com','河南羿方实业有限公司');">加入收藏</a>
   </div>
   <div id="head-daohang">
-    <%= link_to '首页', controller: 'home' -%>&nbsp;&nbsp;
-    <a href="/home/about_us">走进城强</a> &nbsp;&nbsp;
-    <a href="/home/products">产品中心</a>&nbsp;&nbsp;
-    <%= link_to '服务中心', controller: 'home', action: 'service' -%>&nbsp;&nbsp;
-    <a href="/home/sales">销售网络</a> &nbsp;&nbsp;
-    <%= link_to '联系我们', controller: 'home', action: 'contact_us' -%>
+    <ul class="clearfix">
+      <li class="<%= params[:action]=='index' ? 'select' : '' -%>">
+        <%= link_to '首页', controller: 'home' -%>
+      </li>
+      <li class="<%= params[:action]=='about_us' ? 'select' : '' -%>">
+        <%= link_to '走进城强',controller: 'home',action: 'about_us' -%>
+      </li>
+      <li class="<%= params[:action]=='products' ? 'select' : '' -%>">
+        <%= link_to '产品中心',controller: 'home',action: 'products' -%>
+      </li>
+      <li class="<%= params[:action]=='service' ? 'select' : '' -%>">
+        <%= link_to '服务中心', controller: 'home', action: 'service' -%>
+      </li>
+      <li class="<%= params[:action]=='sales' ? 'select' : '' -%>">
+        <%= link_to '销售网络',controller: 'home',action: 'sales' -%>
+      </li>
+      <li class="<%= params[:action]=='company' ? 'select' : '' -%>">
+        <%= link_to '企业文化',controller: 'home',action: 'company' -%>
+      </li>
+      <li class="<%= params[:action]=='honor' ? 'select' : '' -%>">
+        <%= link_to '城强荣誉',controller: 'home',action: 'honor' -%>
+      </li>
+      <li class="<%= params[:action]=='life' ? 'select' : '' -%>">
+        <%= link_to '城强生活',controller: 'home',action: 'life' -%>
+      </li>
+      <li class="<%= params[:action]=='contact_us' ? 'select' : '' -%>">
+        <%= link_to '联系我们', controller: 'home', action: 'contact_us' -%>
+      </li>
+    </ul>
   </div>
 </div>

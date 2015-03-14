@@ -18,7 +18,7 @@ class HomeController < ApplicationController
   def service
 
   end
-  def show
+  def sales
 
   end
   def life
