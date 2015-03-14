@@ -18,4 +18,16 @@ class HomeController < ApplicationController
   def service
 
   end
+  def show
+
+  end
+  def life
+
+  end
+  def company
+
+  end
+  def honor
+
+  end
 end

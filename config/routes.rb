@@ -1,7 +1,8 @@
 Hzcq::Application.routes.draw do
   root :controller => :home, :action => :index
   resources :home
-  get ':controller(/:action(/:id))(.:format)'
+  match '/:controller(/:action(/:id))',:via=>'get'
+  # match ':controller/:action/:id.:format',:via=>'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
