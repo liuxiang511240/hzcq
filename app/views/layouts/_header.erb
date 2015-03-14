@@ -10,8 +10,8 @@
       <li class="<%= params[:action]=='index' ? 'select' : '' -%>">
         <%= link_to '首页', controller: 'home' -%>
       </li>
-      <li class="<%= params[:action]=='about_us' ? 'select' : '' -%>">
-        <%= link_to '走进城强',controller: 'home',action: 'about_us' -%>
+      <li class="<%= params[:action]=='project' ? 'select' : '' -%>">
+        <%= link_to '工程展示',controller: 'home',action: 'project' -%>
       </li>
       <li class="<%= params[:action]=='products' ? 'select' : '' -%>">
         <%= link_to '产品中心',controller: 'home',action: 'products' -%>

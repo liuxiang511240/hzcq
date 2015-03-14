@@ -7,7 +7,7 @@ class HomeController < ApplicationController
 
   end
 
-  def about_us
+  def project
 
   end
 
