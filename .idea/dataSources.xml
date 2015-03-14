@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails hzcq: development" uuid="37ad47e8-b59d-47d1-86e6-d1e3cb120061">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:E:\rails-test\hzcq\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>
