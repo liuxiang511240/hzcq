@@ -18,16 +18,20 @@ class HomeController < ApplicationController
   def service
 
   end
+
   def sales
 
   end
+
   def life
 
   end
+
   def company
 
   end
-  def honor
+
+  def color
 
   end
 end
