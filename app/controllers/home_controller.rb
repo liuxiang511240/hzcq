@@ -23,14 +23,6 @@ class HomeController < ApplicationController
 
   end
 
-  def life
-
-  end
-
-  def company
-
-  end
-
   def color
 
   end
