@@ -228,8 +228,6 @@ a:visited {
 
 #inside-banner {
     float: left;
-    margin-left: 10px;
-    _margin-left: 5px; /*ie6*/
 }
 
 #content-right-top {
