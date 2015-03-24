@@ -41,8 +41,8 @@
       <file leaf-file-name="project.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/project.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9251337" vertical-offset="1287" max-vertical-offset="1974">
-              <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.9251337" vertical-offset="1287" max-vertical-offset="2079">
+              <caret line="86" column="76" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -979,8 +979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/project.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9251337" vertical-offset="1287" max-vertical-offset="1974">
-          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.9251337" vertical-offset="1287" max-vertical-offset="2079">
+          <caret line="86" column="76" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
