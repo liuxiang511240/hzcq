@@ -77,4 +77,9 @@ Hzcq::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+  # config.middleware.use ExceptionNotification::Rack,
+  #                       :email => {
+  #                           :email_prefix => '[hzcq] ',
+  #                           :sender_address => 'liuxiang511240@163.com',
+  #                           :exception_recipients => %w{1073486732@qq.com}
 end
