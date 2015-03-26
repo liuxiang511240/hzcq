@@ -5,73 +5,257 @@
   <div id="content-left-company">
     <div id="content-company-top"><img src="/images/products.jpg" width="172" height="47"/></div>
     <div id="content-company-bottom"><img src="/images/company-left1.jpg" width="12" height="12"/>
-      <a href="?t=涂料系列" class="left" style="font-weight:bold">涂料系列</a></div>
-    <div id="content-company-bottom"><img src="/images/company-left2.jpg" width="12" height="12"/>
-      <a href="?t=外保温板材系列" class="left">外保温板材系列</a></div>
-    <div id="content-company-bottom"><img src="/images/company-left2.jpg" width="12" height="12"/>
-      <a href="?t=外保温附件系列" class="left">外保温附件系列</a></div>
-    <div id="content-company-bottom"><img src="/images/company-left2.jpg" width="12" height="12"/>
-      <a href="?t=特种砂浆系列" class="left">特种砂浆系列</a></div>
-    <div id="content-company-bottom"><img src="/images/company-left2.jpg" width="12" height="12"/>
-      <a href="?t=胶粉系列" class="left">胶粉系列</a></div>
-
+      <a href="?t=涂料系列" class="left" style="font-weight:<%= (params[:t]=='涂料系列' or params[:t].blank?) ? 'bold' : 'normal' -%>">涂料系列</a>
+    </div>
+    <div id="content-company-bottom"><img src="/images/company-left1.jpg" width="12" height="12"/>
+      <a href="?t=外保温板材系列" class="left" style="font-weight:<%= params[:t]=='外保温板材系列' ? 'bold' : 'normal' -%>">外保温板材系列</a>
+    </div>
+    <div id="content-company-bottom"><img src="/images/company-left1.jpg" width="12" height="12"/>
+      <a href="?t=外保温附件系列" class="left" style="font-weight:<%= params[:t]=='外保温附件系列' ? 'bold' : 'normal' -%>">外保温附件系列</a>
+    </div>
+    <div id="content-company-bottom"><img src="/images/company-left1.jpg" width="12" height="12"/>
+      <a href="?t=特种砂浆系列" class="left" style="font-weight:<%= params[:t]=='特种砂浆系列' ? 'bold' : 'normal' -%>">特种砂浆系列</a>
+    </div>
+    <div id="content-company-bottom"><img src="/images/company-left1.jpg" width="12" height="12"/>
+      <a href="?t=胶粉系列" class="left" style="font-weight:<%= params[:t]=='胶粉系列' ? 'bold' : 'normal' -%>">胶粉系列</a></div>
   </div>
 </div>
 <div id="content-company">
-  <div id="content-company-head"><img src="/images/p1.jpg" width="653" height="43"/></div>
-
-  <div id="content-company-content">
-
+<div id="content-company-head"><img src="/images/p1.jpg" width="653" height="43"/></div>
+<div id="content-company-content">
+<% if params[:t]=='外保温板材系列' %>
     <div id="content-pp">
       <div id="content-products">
-        <a href="show_pro.asp?Id=51" target="_blank"><img src="files/417211027.jpg" width="134" height="127" border="0"/></a>
+        <a href="/images/products/1414394359.jpg" target="_blank"><img src="/images/products/1414394359.jpg" width="134" height="127" border="0"/></a>
       </div>
-      <div id="content-products-name"><a href="show_pro.asp?Id=51" target="_blank">天利堡外墙工程面漆</a></div>
+      <div id="content-products-name"><a href="/images/products/1414394359.jpg" target="_blank">EPS复合A级板</a></div>
     </div>
     <div id="content-pp">
       <div id="content-products">
-        <a href="show_pro.asp?Id=50" target="_blank"><img src="files/417201855.jpg" width="134" height="127" border="0"/></a>
+        <a href="/images/products/141439973.jpg" target="_blank"><img src="/images/products/141439973.jpg" width="134" height="127" border="0"/></a>
       </div>
-      <div id="content-products-name"><a href="show_pro.asp?Id=50" target="_blank">地利堡有机硅改性高级墙</a></div>
+      <div id="content-products-name"><a href="/images/products/141439973.jpg" target="_blank">火烧EPS复合A级板</a></div>
     </div>
     <div id="content-pp">
       <div id="content-products">
-        <a href="show_pro.asp?Id=49" target="_blank"><img src="files/417193045.jpg" width="134" height="127" border="0"/></a>
+        <a href="/images/products/1414375785.jpg" target="_blank"><img src="/images/products/1414375785.jpg" width="134" height="127" border="0"/></a>
       </div>
-      <div id="content-products-name"><a href="show_pro.asp?Id=49" target="_blank">和利堡超级弹性墙面漆</a></div>
+      <div id="content-products-name"><a href="/images/products/1414375785.jpg" target="_blank">EPS复合A级板</a></div>
     </div>
     <div id="content-pp">
       <div id="content-products">
-        <a href="show_pro.asp?Id=48" target="_blank"><img src="files/417185742.jpg" width="134" height="127" border="0"/></a>
+        <a href="/images/products/1715553917.jpg" target="_blank"><img src="/images/products/1715553917.jpg" width="134" height="127" border="0"/></a>
       </div>
-      <div id="content-products-name"><a href="show_pro.asp?Id=48" target="_blank">羿方抗碱封闭底漆（白）</a></div>
+      <div id="content-products-name"><a href="/images/products/1715553917.jpg" target="_blank">聚苯板</a></div>
     </div>
     <div id="content-pp">
       <div id="content-products">
-        <a href="show_pro.asp?Id=47" target="_blank"><img src="files/41718341.jpg" width="134" height="127" border="0"/></a>
+        <a href="/images/products/1610454910.jpg" target="_blank"><img src="/images/products/1610454910.jpg" width="134" height="127" border="0"/></a>
       </div>
-      <div id="content-products-name"><a href="show_pro.asp?Id=47" target="_blank">佳彩超白墙面漆</a></div>
+      <div id="content-products-name"><a href="/images/products/1610454910.jpg" target="_blank">机械固定2</a></div>
     </div>
     <div id="content-pp">
       <div id="content-products">
-        <a href="show_pro.asp?Id=46" target="_blank"><img src="files/417164892.jpg" width="134" height="127" border="0"/></a>
+        <a href="/images/products/1610453691.jpg" target="_blank"><img src="/images/products/1610453691.jpg" width="134" height="127" border="0"/></a>
       </div>
-      <div id="content-products-name"><a href="show_pro.asp?Id=46" target="_blank">丽彩细滑高级墙面漆</a></div>
+      <div id="content-products-name"><a href="/images/products/1610453691.jpg" target="_blank">机械固定1</a></div>
     </div>
     <div id="content-pp">
       <div id="content-products">
-        <a href="show_pro.asp?Id=45" target="_blank"><img src="files/417161514.jpg" width="134" height="127" border="0"/></a>
+        <a href="/images/products/1610451564.jpg" target="_blank"><img src="/images/products/1610451564.jpg" width="134" height="127" border="0"/></a>
       </div>
-      <div id="content-products-name"><a href="show_pro.asp?Id=45" target="_blank">康彩全效净味墙面漆</a></div>
+      <div id="content-products-name"><a href="/images/products/1610451564.jpg" target="_blank">大模内置2</a></div>
     </div>
     <div id="content-pp">
       <div id="content-products">
-        <a href="show_pro.asp?Id=44" target="_blank"><img src="files/417152440.jpg" width="134" height="127" border="0"/></a>
+        <a href="/images/products/1610445958.jpg" target="_blank"><img src="/images/products/1610445958.jpg" width="134" height="127" border="0"/></a>
       </div>
-      <div id="content-products-name"><a href="show_pro.asp?Id=44" target="_blank">悦彩耐洗洁高级墙面漆</a></div>
+      <div id="content-products-name"><a href="/images/products/1610445958.jpg" target="_blank">大模内置1</a></div>
     </div>
-  </div>
-  <div id="content-products-fenye">
-    <font color=999999>首页</font>&nbsp;&nbsp;<font color=999999>上一页</font>&nbsp;&nbsp;<font color=#FF0000><b>1</b></font>&nbsp;&nbsp;<a href=?t=涂料系列&page=2>2</a>&nbsp;&nbsp;<a href=?t=涂料系列&page=3>3</a>&nbsp;&nbsp;<a href=?t=涂料系列&page=4>4</a>&nbsp;&nbsp;<a href=?t=涂料系列&page=2>下一页</a>&nbsp;&nbsp;<a href=?t=涂料系列&page=4>尾页</a>
-  </div>
+<% elsif params[:t]=='外保温附件系列' %>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/88401768.jpg" target="_blank"><img src="/images/products/88401768.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/88401768.jpg" target="_blank">锚固件</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/88383813.jpg" target="_blank"><img src="/images/products/88383813.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/88383813.jpg" target="_blank">热镀锌钢丝网</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/8838118.jpg" target="_blank"><img src="/images/products/8838118.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/8838118.jpg" target="_blank">玻纤网格布</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/1610433715.jpg" target="_blank"><img src="/images/products/1610433715.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/1610433715.jpg" target="_blank">网格布</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/1610425358.jpg" target="_blank"><img src="/images/products/1610425358.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/1610425358.jpg" target="_blank">锚固件1</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/1610412669.jpg" target="_blank"><img src="/images/products/1610412669.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/1610412669.jpg" target="_blank">U型夹</a></div>
+    </div>
+<% elsif params[:t]=='特种砂浆系列' %>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/811254050.jpg" target="_blank"><img src="/images/products/811254050.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/811254050.jpg" target="_blank">支座灌浆料</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/2115214231.jpg" target="_blank"><img src="/images/products/2115214231.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/2115214231.jpg" target="_blank">轨道板封锚砂浆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/810403794.jpg" target="_blank"><img src="/images/products/810403794.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/810403794.jpg" target="_blank">轨道板掺和料</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/810352010.jpg" target="_blank"><img src="/images/products/810352010.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/810352010.jpg" target="_blank">CA砂浆干粉料</a></div>
+    </div>
+<% elsif params[:t]=='胶粉系列' %>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/2116133044.jpg" target="_blank"><img src="/images/products/2116133044.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/2116133044.jpg" target="_blank">纤维素</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/2116131496.jpg" target="_blank"><img src="/images/products/2116131496.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/2116131496.jpg" target="_blank">土纤维</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/2116125610.jpg" target="_blank"><img src="/images/products/2116125610.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/2116125610.jpg" target="_blank">木质纤维</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/2116123046.jpg" target="_blank"><img src="/images/products/2116123046.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/2116123046.jpg" target="_blank">短纤维</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/17919097.jpg" target="_blank"><img src="/images/products/17919097.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/17919097.jpg" target="_blank">专用胶粉</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/179205123.jpg" target="_blank"><img src="/images/products/179205123.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/179205123.jpg" target="_blank">专用胶粉</a></div>
+    </div>
+<% else %>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/417211027.jpg" target="_blank"><img src="/images/products/417211027.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/417211027.jpg" target="_blank">天利堡外墙工程面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/417201855.jpg" target="_blank"><img src="/images/products/417201855.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/417201855.jpg" target="_blank">地利堡有机硅改性高级墙</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/417193045.jpg" target="_blank"><img src="/images/products/417193045.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/417193045.jpg" target="_blank">和利堡超级弹性墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/417185742.jpg" target="_blank"><img src="/images/products/417185742.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/417185742.jpg" target="_blank">羿方抗碱封闭底漆（白）</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/41718341.jpg" target="_blank"><img src="/images/products/41718341.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/41718341.jpg" target="_blank">佳彩超白墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/417164892.jpg" target="_blank"><img src="/images/products/417164892.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/417164892.jpg" target="_blank">丽彩细滑高级墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/417161514.jpg" target="_blank"><img src="/images/products/417161514.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/417161514.jpg" target="_blank">康彩全效净味墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/417152440.jpg" target="_blank"><img src="/images/products/417152440.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/417152440.jpg" target="_blank">悦彩耐洗洁高级墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/41714934.jpg" target="_blank"><img src="/images/products/41714934.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/41714934.jpg" target="_blank">梦彩绢丝豪华墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/416552845.jpg" target="_blank"><img src="/images/products/416552845.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/416552845.jpg" target="_blank">丽彩细滑高级墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/416555281.jpg" target="_blank"><img src="/images/products/416555281.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/416555281.jpg" target="_blank">佳彩超白墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/416561228.jpg" target="_blank"><img src="/images/products/416561228.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/416561228.jpg" target="_blank">羿方抗碱封闭底漆（白）</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/416564989.jpg" target="_blank"><img src="/images/products/416564989.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/416564989.jpg" target="_blank">和利堡超级弹性墙面漆</a></div>
+    </div>
+    <div id="content-pp">
+      <div id="content-products">
+        <a href="/images/products/41657540.jpg" target="_blank"><img src="/images/products/41657540.jpg" width="134" height="127" border="0"/></a>
+      </div>
+      <div id="content-products-name"><a href="/images/products/41657540.jpg" target="_blank">地利堡有机硅改性高级墙</a></div>
+    </div>
+<% end %>
+</div>
 </div>
