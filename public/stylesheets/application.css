@@ -1,48 +1,10 @@
-
-/*img {*/
-/*display: inline;*/
-/*}*/
-
-ol, ul, dl {
-    list-style: none;
-}
-
-mark {
-    background: none;
-    color: #f00;
-}
-
-/* =clearfix ==============================================*/
-/* new clearfix */
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-.clearfix {
-    display: block;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-*:first-child + html .clearfix {
-    zoom: 1;
-}
-
-/* = body==============================================*/
-/*@charset "gb2312";*/
+@charset "gb2312";
 /* www.pcfinal.cn */
 img {
     border: none;
 }
 
-/*åŸºæœ¬ä¿¡æ¯*/
+/*»ù±¾ĞÅÏ¢*/
 dd, dl, dt, ul, li {
     margin: 0;
     padding: 0;
@@ -51,7 +13,7 @@ dd, dl, dt, ul, li {
 
 body {
     font-size: 12px;
-    font-family: "å®‹ä½“";
+    font-family: "ËÎÌå";
     line-height: 22px;
     color: #ffffff;
     margin: 0px;
@@ -61,7 +23,7 @@ body {
 td {
     line-height: 22px;
     font-size: 12px;
-    font-family: "å®‹ä½“";
+    font-family: "ËÎÌå";
 }
 
 a {
@@ -90,7 +52,9 @@ a:active {
     font-size: 10px;
     color: #f4dc90;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.7
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
 }
 
 .f14px {
@@ -124,14 +88,14 @@ a:active {
 .f21px {
     font-size: 24px;
     color: #007cc3;
-    font-family: "å¾®è½¯é›…é»‘";
+    font-family: "Î¢ÈíÑÅºÚ";
     font-weight: bold
 }
 
 .f22px {
     font-size: 15px;
     color: #373636;
-    font-family: "å¾®è½¯é›…é»‘";
+    font-family: "Î¢ÈíÑÅºÚ";
 }
 
 .left {
@@ -149,7 +113,7 @@ a:active {
 .leftmenu {
     font-size: 19px;
     color: #FFFFFF;
-    font-family: "å®‹ä½“";
+    font-family: "ËÎÌå";
 }
 
 .boder {
@@ -204,7 +168,7 @@ a:active {
     color: #ba2636;
 }
 
-/* CSS é—´éš™ */
+/* CSS ¼äÏ¶ */
 .blank {
     border-left: 1px solid #DEDEDE;
     border-right: 1px solid #DEDEDE;
@@ -212,7 +176,7 @@ a:active {
     border-bottom: 1px solid #DEDEDE;
 }
 
-/*æ ‡é¢˜*/
+/*±êÌâ*/
 h1 {
     font-size: 16px;
     font-weight: bold;
@@ -250,49 +214,49 @@ A.li:active {
 A.top:link {
     COLOR: #ffffff;
     font-size: 14px;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 A.top:visited {
     COLOR: #ffffff;
     font-size: 14px;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 A.top:hover {
     COLOR: #ff0000;
     font-size: 14px;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 A.top:active {
     COLOR: #ffffff;
     font-size: 14px;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 A.li1:link {
     font-size: 14px;
     color: #333333;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 A.li1:visited {
     font-size: 14px;
     color: #333333;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 A.li1:hover {
     font-size: 14px;
     color: #ff0000;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 A.li1:active {
     font-size: 14px;
     color: #333333;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 A.li2:link {
@@ -520,7 +484,7 @@ A.menu:link {
     TEXT-DECORATION: none;
     font-size: 15px;
     font-weight: bold;
-    font-family: "å¾®è½¯é›…é»‘";
+    font-family: "Î¢ÈíÑÅºÚ";
 }
 
 A.menu:visited {
@@ -528,7 +492,7 @@ A.menu:visited {
     TEXT-DECORATION: none;
     font-size: 15px;
     font-weight: bold;
-    font-family: "å¾®è½¯é›…é»‘";
+    font-family: "Î¢ÈíÑÅºÚ";
 }
 
 A.menu:hover {
@@ -536,7 +500,7 @@ A.menu:hover {
     TEXT-DECORATION: none;
     font-size: 15px;
     font-weight: bold;
-    font-family: "å¾®è½¯é›…é»‘";
+    font-family: "Î¢ÈíÑÅºÚ";
 }
 
 A.menu:active {
@@ -544,12 +508,12 @@ A.menu:active {
     TEXT-DECORATION: none;
     font-size: 15px;
     font-weight: bold;
-    font-family: "å¾®è½¯é›…é»‘";
+    font-family: "Î¢ÈíÑÅºÚ";
 }
 
 table {
     font-size: 12px;
-    font-family: "å®‹ä½“", verdana
+    font-family: "ËÎÌå", verdana
 }
 
 .a {
@@ -651,7 +615,7 @@ table {
     font-size: 13px;
 }
 
-/* å¯¼èˆªä¸‹æ‹‰èœå• */
+/* µ¼º½ÏÂÀ­²Ëµ¥ */
 #nav {
     width: 100%;
     position: relative;
@@ -749,7 +713,7 @@ table {
     left: 442px;
 }
 
-/*é¡µé¢ä¸»ä½“2*/
+/*Ò³ÃæÖ÷Ìå2*/
 #main2 {
     width: 1002px;
     margin: 0px auto;
@@ -793,13 +757,13 @@ table {
     height: 113px;
 }
 
-/* ç§‘å®¤åŠ¨æ€ */
+/* ¿ÆÊÒ¶¯Ì¬ */
 .tabb {
     height: 30px;
     padding-left: 0px;
     color: #eb1500;
     font-size: 15px;
-    font-family: "å¾®è½¯é›…é»‘"
+    font-family: "Î¢ÈíÑÅºÚ"
 }
 
 .tabb li {
