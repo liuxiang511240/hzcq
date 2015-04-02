@@ -23,7 +23,7 @@ class HomeController < ApplicationController
 
   end
 
-  def color
+  def about_us
 
   end
 end
