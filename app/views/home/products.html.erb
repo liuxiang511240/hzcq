@@ -12,11 +12,12 @@
   <script type="text/javascript" src="/javascripts/stretch.js"></script>
   <table width="233" border="0" cellpadding="0" cellspacing="0" background="/images/neiye_04.jpg">
     <tr>
-      <td width="9" height="32" align="left" valign="top"><img src="/images/neiye_03.jpg" width="5" height="32"/></td>
+      <td width="9" height="32" align="left" valign="top"><img src="/images/neiye_03.jpg" width="5" height="32"/>
+      </td>
       <td width="66" align="right" valign="middle" style="padding-right:10px;">
         <img src="/images/neiye_09.jpg" width="20" height="17"/></td>
-      <td width="146" align="left" valign="bottom" class="f18px">装饰装修类</td>
-      <td width="12" align="right" valign="top"><img src="/images/neiye_06.jpg" width="7" height="32"/></td>
+      <td width="146" align="left" valign="bottom" class="f18px">产品展示</td>
+      <td width="12" align="right" valign="top"><img src="/images/neiye_06.jpg" with="7" height="32"/></td>
     </tr>
   </table>
   <table width="233" border="0" cellpadding="0" cellspacing="0" bgcolor="003052">
@@ -34,144 +35,46 @@
                     <!-- 子菜单 -->
                     <DIV id=menu>
 			        
-       <SPAN class="hover baknone"><table width="100%" border="0" cellpadding="0" cellspacing="0">
-         <tr>
-           <td width="33%" height="28" align="right" valign="middle">
-             <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
-           <td width="67%" align="left" valign="middle" style="padding-left:10px;"><a>装饰装修类</a></td>
-         </tr>
-       </table>
+       <SPAN class="<%= params[:classid].blank? ? 'hover' : 'menuTitle' -%>">
+         <table width="100%" border="0" cellpadding="0" cellspacing="0">
+           <tr>
+             <td width="33%" height="28" align="right" valign="middle">
+               <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
+             <td width="67%" align="left" valign="middle" style="padding-left:10px;"><a href="/home/products">装饰装修类</a>
+             </td>
+           </tr>
+         </table>
        </SPAN>
-
-                      <DIV class=hoverContent align="left">
-                        <UL>
-
-                          <LI>
-                            <a href="photolist.asp?classid=528" class="hover">
-                              乳胶漆</a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=529">
-                              真石漆 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=530">
-                              质感漆 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=531">
-                              岩片漆 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=532">
-                              液态花岗岩 </a></LI>
-
-                        </UL>
-                      </DIV>
-       
-        <SPAN class=menuTitle><table width="100%" border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="33%" height="28" align="right" valign="middle">
-              <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
-            <td width="67%" align="left" valign="middle" style="padding-left:10px;"><a>功能防腐类</a></td>
-          </tr>
-        </table>
+        <SPAN class="<%= params[:classid]=='533' ? 'hover' : 'menuTitle' -%>">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="33%" height="28" align="right" valign="middle">
+                <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
+              <td width="67%" align="left" valign="middle" style="padding-left:10px;">
+                <a href="/home/products?classid=533">功能防腐类</a></td>
+            </tr>
+          </table>
        </SPAN>
-
-                      <div class="menuContent" align="left">
-                        <UL>
-
-                          <LI>
-                            <a href="photolist.asp?classid=533">
-                              醇酸漆 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=534">
-                              环氧漆 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=535">
-                              聚氨酯漆 </a></LI>
-
-                        </UL>
-                      </div>
-        
-        <SPAN class=menuTitle><table width="100%" border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="33%" height="28" align="right" valign="middle">
-              <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
-            <td width="67%" align="left" valign="middle" style="padding-left:10px;"><a>特种建材类</a></td>
-          </tr>
-        </table>
-       </SPAN>
-
-                      <div class="menuContent" align="left">
-                        <UL>
-
-                          <LI>
-                            <a href="photolist.asp?classid=536">
-                              通用型灌浆料 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=537">
-                              豆石型灌浆料 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=538">
-                              超细型灌浆料 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=539">
-                              超早强型灌浆料 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=540">
-                              碳纤维浸渍胶 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=541">
-                              碳纤维底胶 </a></LI>
-
-                          <LI>
-                            <a href="photolist.asp?classid=542">
-                              碳纤维找平胶 </a></LI>
-
-                        </UL>
-                      </div>
-        
-
-        <SPAN><table width="100%" border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="33%" height="28" align="right" valign="middle">
-              <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
-            <td width="67%" align="left" valign="middle" style="padding-left:10px;">
-              <a href="photolist.asp?classid=525">保温砂浆类</a></td>
-          </tr>
-        </table>
+        <SPAN class="<%= params[:classid]=='525' ? 'hover' : 'menuTitle' -%>">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="33%" height="28" align="right" valign="middle">
+                <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
+              <td width="67%" align="left" valign="middle" style="padding-left:10px;">
+                <a href="/home/products?classid=525">保温砂浆类</a></td>
+            </tr>
+          </table>
         </SPAN>
-        
-
-        <SPAN><table width="100%" border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="33%" height="28" align="right" valign="middle">
-              <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
-            <td width="67%" align="left" valign="middle" style="padding-left:10px;">
-              <a href="photolist.asp?classid=526">墙体腻子类</a></td>
-          </tr>
-        </table>
+        <SPAN class="<%= params[:classid]=='526' ? 'hover' : 'menuTitle' -%>">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="33%" height="28" align="right" valign="middle">
+                <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
+              <td width="67%" align="left" valign="middle" style="padding-left:10px;">
+                <a href="/home/products?classid=526">墙体腻子类</a></td>
+            </tr>
+          </table>
         </SPAN>
-        
-
-        <SPAN><table width="100%" border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="33%" height="28" align="right" valign="middle">
-              <img src="/images/neiye_15.jpg" width="11" height="10"/></td>
-            <td width="67%" align="left" valign="middle" style="padding-left:10px;">
-              <a href="photolist.asp?classid=527">装饰材料</a></td>
-          </tr>
-        </table>
-        </SPAN>
-
                     </DIV>
                   </td>
                 </tr>
@@ -188,109 +91,353 @@
   <%= render :partial => 'layouts/contact' -%>
 </td>
 <td width="743" align="left" valign="top">
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td height="32" align="right" valign="middle" style="padding-right:20px;" class="f16px">您当前位置：
-        <a href="/" class="cp">首页</a> &gt; 装饰装修类 &gt; 乳胶漆
-      </td>
-    </tr>
-  </table>
-  <table width="98%" border="0" cellpadding="0" cellspacing="0" background="/images/1_63.jpg">
-    <tr>
-      <td align="left" valign="top">
-        <div style="background: url(../images/1_62.jpg);width: 29px;height: 9px;"></div>
-      </td>
-    </tr>
-  </table>
-  <table width="98%" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td height="500" align="left" valign="top" style="padding:15px; line-height:180%; font-size:13px;">
-        <table width="100%" height="113" border="0" cellpadding="0" cellspacing="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="32" align="right" valign="middle" style="padding-right:20px;" class="f16px">您当前位置：
+      <a href="/" class="cp">首页</a> &gt; 装饰装修类 &gt; 乳胶漆
+    </td>
+  </tr>
+</table>
+<table width="98%" border="0" cellpadding="0" cellspacing="0" background="/images/1_63.jpg">
+  <tr>
+    <td align="left" valign="top">
+      <div style="background: url(../images/1_62.jpg);width: 29px;height: 9px;"></div>
+    </td>
+  </tr>
+</table>
+<% if params[:classid]=='526' %>
+    <table width="98%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="500" align="left" valign="top" style="padding:15px; line-height:180%; font-size:13px;">
+          <table width="100%" height="113" border="0" cellpadding="0" cellspacing="0">
 
-          <tr>
+            <tr>
 
-            <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
-              <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
-                <tr>
-                  <td style="padding:3px;">
-                    <a href="photo_view.asp?id=1080"><img alt="全效墙面漆" src="/uploadfile/news/20144/2014040315481499385.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
-                  </td>
-                </tr>
-              </table>
-              <table width="150" border="0" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td height="20" align="center"><a href="photo_view.asp?id=1080">全效墙面漆</a></td>
-                </tr>
-              </table>
-            </td>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1078"><img alt="粉刷石膏" src="/uploadfile/news/20144/2014040315433456191.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1078">粉刷石膏</a></td>
+                  </tr>
+                </table>
+              </td>
 
-            <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
-              <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
-                <tr>
-                  <td style="padding:3px;">
-                    <a href="photo_view.asp?id=1059"><img alt="金装净味乳胶漆" src="/uploadfile/news/20144/2014040315393341875.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
-                  </td>
-                </tr>
-              </table>
-              <table width="150" border="0" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td height="20" align="center"><a href="photo_view.asp?id=1059">金装净味乳胶漆</a></td>
-                </tr>
-              </table>
-            </td>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1065"><img alt="外墙柔性耐水腻子" src="/uploadfile/news/20143/2014032818322357522.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1065">外墙柔性耐水腻子</a></td>
+                  </tr>
+                </table>
+              </td>
 
-            <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
-              <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
-                <tr>
-                  <td style="padding:3px;">
-                    <a href="photo_view.asp?id=1058"><img alt="金装五合一漆" src="/uploadfile/news/20144/2014040315395351735.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
-                  </td>
-                </tr>
-              </table>
-              <table width="150" border="0" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td height="20" align="center"><a href="photo_view.asp?id=1058">金装五合一漆</a></td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
-            <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
-              <tr>
-                <td style="padding:3px;">
-                  <a href="photo_view.asp?id=1057"><img alt="环保外墙漆" src="/uploadfile/news/20144/2014040315401385001.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
-                </td>
-              </tr>
-            </table>
-            <table width="150" border="0" cellpadding="0" cellspacing="0">
-              <tr>
-                <td height="20" align="center"><a href="photo_view.asp?id=1057">环保外墙漆</a></td>
-              </tr>
-            </table>
-          </td>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1060"><img alt="821内墙腻子" src="/uploadfile/news/20144/2014040315151453144.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1060">821内墙腻子</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+<% elsif params[:classid]=='525' %>
+    <table width="98%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="500" align="left" valign="top" style="padding:15px; line-height:180%; font-size:13px;">
+          <table width="100%" height="113" border="0" cellpadding="0" cellspacing="0">
 
-          </tr>
-          <tr>
-            <td align="center" colspan="4">
-              <div id="showpage" style="margin-top:8px;">
-                <font color=#999999 title="首页"><font face=webdings>9</font></font>
-                <font color=#999999 title="上10页"> <font face=webdings>7</font></font>
-                <font color=#999999 title="上一页"> <font face=webdings>3</font></font>
-                <b>1</b>
-                <font color=#999999 title="下一页"> <font face=webdings>4</font></font>
-                <font color=#999999 title="下10页"> <font face=webdings>8</font></font>
-                <font color=#999999 title="尾页"><font face=webdings>:</font></font>
-                跳转:<select NAME=menu1 onChange="var Js_JumpValue;Js_JumpValue=this.options[this.selectedIndex].value;if(Js_JumpValue!='') location=Js_JumpValue;">
-                <option value=?classid=528&Page=1 selected style='color:#0000FF'>第1页</option>
-              </select>
-                &nbsp;每页<b>12</b>个记录，现在是:<b><span class="tx">1</span>/1</b>页，共<b><span id='recordcount'>4</span></b>个记录。
-              </div>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+            <tr>
+
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1064"><img alt="聚合物粘结砂浆" src="/uploadfile/news/20144/2014040315424430460.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1064">聚合物粘结砂浆</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1063"><img alt="聚合物抹面砂浆" src="/uploadfile/news/20144/2014040315430054181.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1063">聚合物抹面砂浆</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1062"><img alt="聚合物瓷砖粘合剂" src="/uploadfile/news/20144/2014040315431620480.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1062">聚合物瓷砖粘合剂</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+<% elsif params[:classid]=='533' %>
+    <table width="98%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="500" align="left" valign="top" style="padding:15px; line-height:180%; font-size:13px;">
+          <table width="100%" height="113" border="0" cellpadding="0" cellspacing="0">
+
+            <tr>
+
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1086"><img alt="醇酸漆3" src="/uploadfile/news/20144/2014040315312744174.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1086">醇酸漆3</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1085"><img alt="醇酸漆2" src="/uploadfile/news/20144/2014040315314552584.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1085">醇酸漆2</a></td>
+                  </tr>
+                </table>
+              </td>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1076"><img alt="环氧漆" src="/uploadfile/news/20144/2014041111430014460.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1076">环氧漆</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1077"><img alt="聚氨酯漆" src="/uploadfile/news/20144/2014040315495998105.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1077">聚氨酯漆</a></td>
+                  </tr>
+                </table>
+              </td>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1075"><img alt="醇酸漆1" src="/uploadfile/news/20144/2014040315351382111.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1075">醇酸漆1</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+<% else %>
+    <table width="98%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="500" align="left" valign="top" style="padding:15px; line-height:180%; font-size:13px;">
+          <table width="100%" height="113" border="0" cellpadding="0" cellspacing="0">
+
+            <tr>
+
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1080"><img alt="全效墙面漆" src="/uploadfile/news/20144/2014040315481499385.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1080">全效墙面漆</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1059"><img alt="金装净味乳胶漆" src="/uploadfile/news/20144/2014040315393341875.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1059">金装净味乳胶漆</a></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1058"><img alt="金装五合一漆" src="/uploadfile/news/20144/2014040315395351735.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1058">金装五合一漆</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1057"><img alt="环保外墙漆" src="/uploadfile/news/20144/2014040315401385001.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1057">环保外墙漆</a></td>
+                  </tr>
+                </table>
+              </td>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1066"><img alt="真石漆" src="/uploadfile/news/20144/2014040216561982752.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1066">真石漆</a></td>
+                  </tr>
+                </table>
+              </td>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1071"><img alt="质感漆" src="/uploadfile/news/20144/2014040216573516510.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1071">质感漆</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1072"><img alt="岩片漆" src="/uploadfile/news/20144/2014040216581232984.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1072">岩片漆</a></td>
+                  </tr>
+                </table>
+              </td>
+              <td height="81" width="188" align="center" class="td4" style="padding-top:8px; padding-bottom:5px; padding-left:15px;">
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="f6f6f6" style="border:1px solid #d8d8d8;">
+                  <tr>
+                    <td style="padding:3px;">
+                      <a href="photo_view.asp?id=1073"><img alt="液态花岗岩" src="/uploadfile/news/20144/2014040216583490217.jpg" width="180" height="150" hspace="3" vspace="3" border="0"/></a>
+                    </td>
+                  </tr>
+                </table>
+                <table width="150" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="20" align="center"><a href="photo_view.asp?id=1073">液态花岗岩</a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+<% end %>
 </td>
 </tr>
 </table>
