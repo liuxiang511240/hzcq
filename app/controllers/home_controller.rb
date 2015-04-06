@@ -26,4 +26,8 @@ class HomeController < ApplicationController
   def about_us
 
   end
+
+  def hire
+
+  end
 end
