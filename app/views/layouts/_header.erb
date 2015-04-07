@@ -3,10 +3,11 @@
     <td height="589" align="center" valign="top">
       <table width="1002" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td width="627" align="left" valign="top">
-            <div style="background:url(../images/1_04.jpg);width: 627px;height: 115px;cursor: pointer;" onclick="window.location.href='/'">
-              <!--菏泽成强建材科技有限公司-->
-            </div>
+          <td width="627">
+            <div style="width: 627px;height: 115px;line-height: 115px;vertical-align: middle;color: #000000;font-size: 25px;font-family: '微软雅黑';">菏泽成强建材科技有限公司</div>
+            <!--<div style="background:url(../images/1_04.jpg);width: 627px;height: 115px;cursor: pointer;" onclick="window.location.href='/'">-->
+              <!--&lt;!&ndash;菏泽成强建材科技有限公司&ndash;&gt;-->
+            <!--</div>-->
           </td>
           <td width="375" align="center" valign="top">
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -17,14 +18,16 @@
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td align="center" valign="middle">
-                  <img alt="宁夏涂料，真实漆400电话" src="/images/1_07.jpg" width="338" height="31"/></td>
+                  <div style="width: 338px;height: 49px;line-height: 49px;vertical-align: bottom;color: #000000;font-size: 20px;font-family: '微软雅黑';">全国咨询服务电话：400-117-1157</div>
+                  <!--<img alt="宁夏涂料，真实漆400电话" src="/images/1_07.jpg" width="338" height="31"/>-->
+                </td>
               </tr>
             </table>
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td height="18"></td>
-              </tr>
-            </table>
+            <!--<table width="100%" border="0" cellspacing="0" cellpadding="0">-->
+              <!--<tr>-->
+                <!--<td height="18"></td>-->
+              <!--</tr>-->
+            <!--</table>-->
             <table width="87%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="47%">&nbsp;</td>
@@ -41,35 +44,43 @@
       </table>
       <table width="1002" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td height="30" style="text-align: center;vertical-align: bottom;"><a href="/" class="top">网站首页</a></td>
+          <td height="30" style="text-align: center;vertical-align: bottom;">
+            <a href="/" class="top" style="color: <%= params[:action]=='index' ? 'red' : '#fff' -%>">网站首页</a></td>
           <td rowspan="2" align="center" valign="middle">
             <div style="background: url(../images/1_11.jpg);width: 3px;height: 50px;"></div>
           </td>
-          <td style="text-align: center;vertical-align: bottom;"><a href="/home/about_us" class="top">公司概况</a></td>
+          <td style="text-align: center;vertical-align: bottom;">
+            <a href="/home/about_us" class="top" style="color: <%= params[:action]=='about_us' ? 'red' : '#fff' -%>">公司概况</a></td>
           <td rowspan="2" align="center" valign="middle">
             <div style="background: url(../images/1_11.jpg);width: 3px;height: 50px;"></div>
           </td>
-          <td style="text-align: center;vertical-align: bottom;"><a href="/home/products" class="top">产品展示</a></td>
+          <td style="text-align: center;vertical-align: bottom;">
+            <a href="/home/products" class="top" style="color: <%= params[:action]=='products' ? 'red' : '#fff' -%>">产品展示</a></td>
           <td rowspan="2" align="center" valign="middle">
             <div style="background: url(../images/1_11.jpg);width: 3px;height: 50px;"></div>
           </td>
-          <td style="text-align: center;vertical-align: bottom;"><a href="/home/project" class="top">工程案例</a></td>
+          <td style="text-align: center;vertical-align: bottom;">
+            <a href="/home/project" class="top" style="color: <%= params[:action]=='project' ? 'red' : '#fff' -%>">工程案例</a></td>
           <td rowspan="2" align="center" valign="middle">
             <div style="background: url(../images/1_11.jpg);width: 3px;height: 50px;"></div>
           </td>
-          <td style="text-align: center;vertical-align: bottom;"><a href="/home/sales" class="top">招商加盟</a></td>
+          <td style="text-align: center;vertical-align: bottom;">
+            <a href="/home/sales" class="top" style="color: <%= params[:action]=='sales' ? 'red' : '#fff' -%>">招商加盟</a></td>
           <td rowspan="2" align="center" valign="middle">
             <div style="background: url(../images/1_11.jpg);width: 3px;height: 50px;"></div>
           </td>
-          <td style="text-align: center;vertical-align: bottom;"><a href="/home/service" class="top">售后服务</a></td>
+          <td style="text-align: center;vertical-align: bottom;">
+            <a href="/home/service" class="top" style="color: <%= params[:action]=='service' ? 'red' : '#fff' -%>">售后服务</a></td>
           <td rowspan="2" align="center" valign="middle">
             <div style="background: url(../images/1_11.jpg);width: 3px;height: 50px;"></div>
           </td>
-          <td style="text-align: center;vertical-align: bottom;"><a href="/home/hire" class="top">诚聘英才</a></td>
+          <td style="text-align: center;vertical-align: bottom;">
+            <a href="/home/hire" class="top" style="color: <%= params[:action]=='hire' ? 'red' : '#fff' -%>">诚聘英才</a></td>
           <td rowspan="2" align="center" valign="middle">
             <div style="background: url(../images/1_11.jpg);width: 3px;height: 50px;"></div>
           </td>
-          <td style="text-align: center;vertical-align: bottom;"><a rel="nofollow" href="/home/contact_us" class="top">联系我们</a></td>
+          <td style="text-align: center;vertical-align: bottom;">
+            <a rel="nofollow" href="/home/contact_us" class="top" style="color: <%= params[:action]=='contact_us' ? 'red' : '#fff' -%>">联系我们</a></td>
         </tr>
         <tr>
           <td class="f12px">HOME</td>
